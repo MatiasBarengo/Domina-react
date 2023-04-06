@@ -14,6 +14,7 @@ import ContadorPalabras from './components/ContadorPalabras'
 import MostrarOcultarContraseña from './components/MostrarOcultarContraseña'
 import ValidarFormulario from './components/ValidarFormulario'
 import ActivacionCondicional from './components/ActivacionCondicional'
+import Carrito from './components/Carrito'
 
 function App ()
 {
@@ -36,6 +37,7 @@ function App ()
           <Route path='/mostrarocultarcontraseña' element={ <MostrarOcultarContraseña /> } />
           <Route path='/validarformulario' element={ <ValidarFormulario /> } />
           <Route path='/activacioncondicional' element={ <ActivacionCondicional /> } />
+          <Route path='/carrito' element={ <Carrito /> } />
         </Routes>
       </BrowserRouter>
     </div>
