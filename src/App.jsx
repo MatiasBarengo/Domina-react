@@ -7,6 +7,7 @@ import Dados from './components/Dados'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import SigueLaFlecha from './components/SigueLaFlecha'
 import BuscarItems from './components/BuscarItems'
+import OrdenAscDesc from './components/OrdenAscDesc'
 
 function App ()
 {
@@ -22,6 +23,7 @@ function App ()
           <Route path='/siguelaflecha' element={ <SigueLaFlecha /> } />
           <Route path='/reloj' element={ <Reloj /> } />
           <Route path='/buscaritem' element={ <BuscarItems /> } />
+          <Route path='/ordenascdesc' element={ <OrdenAscDesc /> } />
         </Routes>
       </BrowserRouter>
     </div>
